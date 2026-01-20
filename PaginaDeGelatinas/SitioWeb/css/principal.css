@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+main {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(49, 49, 49, 0.068);
+}
+
+.titulo_de_la_seccion {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.rayita_de_decoracion {
+    width: 100%;
+    height: 25px;
+    background-color: #578FCF;
+}
+
+.titulo_de_la_pagina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.192);
+    margin-bottom: 25px;
+}
+
+.titulo_de_la_pagina h1 {
+    font-size: 45pt;
+}
+
+.Contenedor_tipos_de_gelatinas {
+    display: flex;
+    flex-direction: row;
+    /*background-color: aqua;*/
+    height: auto;
+    width: 90%;
+    margin-bottom: 100px;
+}
+
+.Tipo_de_gelatina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    width: 25%;
+    border-radius: 35px;
+    padding: 3px;
+    font-family: nexa, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.imagen_de_gelatina {
+    height: 55%;
+    width: 100%;
+    background-color: bisque;
+    margin-bottom: 5%;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+.precio_de_la_gelatina p {
+    margin-top: 5%;
+}
+
+.boton_para_coomprar {
+    margin-top: 25%;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    width: 90%;
+    height: 70%;
+    border-radius: 50px;
+    border: none;
+    background-color: #2C4969;
+    transition: 0.5s;
+    font-family: nexa, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16pt;
+}
+
+button:hover {
+    width: 95%;
+    height: 75%;
+    font-size: 18pt;
+
+}
+
+.Titulo_de_la_gelatina {
+    margin-top: 5%;
+}
